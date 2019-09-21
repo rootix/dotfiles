@@ -1,6 +1,7 @@
 # VSCode
 Copy-Item "C:\Users\Pascal\AppData\Roaming\Code\User\settings.json" -Destination ".\vscode\"
 Copy-Item "C:\Users\Pascal\AppData\Roaming\Code\User\keybindings.json" -Destination ".\vscode\"
+code --list-extensions > ".\vscode\extensions.txt"
 
 # Git
 Copy-Item "C:\Users\Pascal\.gitconfig" -Destination ".\git\"
