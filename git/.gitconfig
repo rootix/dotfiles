@@ -7,6 +7,7 @@
   co = checkout
   cob = checkout -b
   cm = !git add -A && git commit -m
+  cln = !git checkout . && git clean -fd
   save = !git add -A && git commit -m 'SAVEPOINT'
   wip = !git add -u && git commit -m "WIP"
   undo = reset HEAD~1 --mixed
