@@ -1,0 +1,31 @@
+[user]
+	email = pascal.mathys@rootix.ch
+	name = Pascal Mathys
+[core]
+	autocrlf = true
+[alias]
+  co = checkout
+  cob = checkout -b
+  cm = !git add -A && git commit -m
+  save = !git add -A && git commit -m 'SAVEPOINT'
+  wip = !git add -u && git commit -m "WIP"
+  undo = reset HEAD~1 --mixed
+  amend = commit -a --amend
+  wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+  lob = "!f(){ git branch --merged | grep -v 'master' | grep -v 'develop' | grep -v '*'; };f"
+  dob = "!f(){ git branch --merged | grep -v 'master' | grep -v 'develop' | grep -v '*' | xargs git branch -d; };f"
+[difftool "sourcetree"]
+	cmd = 'C:/Program Files/Beyond Compare 4/BComp.exe' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = 'C:/Program Files/Beyond Compare 4/BComp.exe' \"$LOCAL\" \"$REMOTE\" \"$BASE\" -o \"$MERGED\"
+	trustExitCode = true
+[diff]
+	tool = bc
+[difftool "bc"]
+	path = C:/Program Files/Beyond Compare 4/bcomp.exe
+[merge]
+	tool = bc
+[mergetool "bc"]
+	path = C:/Program Files/Beyond Compare 4/bcomp.exe
+[difftool]
+	prompt = false
