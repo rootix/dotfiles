@@ -91,5 +91,8 @@
     "px-to-rem.px-per-rem": 24,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "git.confirmSync": false,
-    "editor.fontSize": 13
+    "editor.fontSize": 13,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
