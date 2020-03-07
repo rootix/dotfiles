@@ -72,7 +72,7 @@
     },
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.fontFamily": "'DelugiaCode NF', 'Cascadia Code', 'Source Code Pro', Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'Cascadia Code', 'Source Code Pro', Consolas, 'Courier New', monospace",
     "peacock.affectActivityBar": false,
     "peacock.affectStatusBar": false,
     "sync.forceUpload": true,
@@ -86,13 +86,10 @@
     "editor.mouseWheelZoom": true,
     "editor.letterSpacing": 0.2,
     "debug.console.fontSize": 13,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
     "editor.fontLigatures": true,
     "px-to-rem.px-per-rem": 24,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "git.confirmSync": false,
-    "editor.fontSize": 13,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    "editor.fontSize": 13
 }

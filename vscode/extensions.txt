@@ -1,4 +1,5 @@
 alexiv.vscode-angular2-files
+Angular.ng-template
 CoenraadS.bracket-pair-colorizer-2
 DotJoshJohnson.xml
 eamodio.gitlens
@@ -9,8 +10,10 @@ ghaschel.vscode-angular-html
 infinity1207.angular2-switcher
 johnpapa.Angular2
 johnpapa.vscode-peacock
+kumar-harsh.graphql-for-vscode
+mikeburgh.xml-format
+ms-dotnettools.csharp
 ms-vscode-remote.remote-wsl
-ms-vscode.csharp
 ms-vscode.powershell
 ms-vscode.vscode-typescript-tslint-plugin
 ms-vsliveshare.vsliveshare
@@ -21,6 +24,7 @@ rbbit.typescript-hero
 rootix.dark-bliss-reloaded
 sainoba.px-to-rem
 Shan.code-settings-sync
+stkb.rewrap
 teabyii.ayu
 VisualStudioExptTeam.vscodeintellicode
 zengxingxin.sort-js-object-keys
