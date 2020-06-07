@@ -31,3 +31,7 @@
 	path = C:/Program Files/Beyond Compare 4/bcomp.exe
 [difftool]
 	prompt = false
+[commit]
+	gpgsign = true
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe

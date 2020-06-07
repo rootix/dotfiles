@@ -54,7 +54,6 @@
         }
     ],
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Ayu Mirage Bordered",
     "workbench.iconTheme": "material-icon-theme",
     "sync.gist": "dbd2e334e6345384a6b2093149c289b6",
     "workbench.colorCustomizations": {
@@ -91,5 +90,9 @@
     "px-to-rem.px-per-rem": 24,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "git.confirmSync": false,
-    "editor.fontSize": 13
+    "editor.fontSize": 13,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
