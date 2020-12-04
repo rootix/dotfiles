@@ -1,13 +1,12 @@
 alexiv.vscode-angular2-files
 Angular.ng-template
 CoenraadS.bracket-pair-colorizer-2
+dbaeumer.vscode-eslint
 DotJoshJohnson.xml
 eamodio.gitlens
 esbenp.prettier-vscode
 fernandoescolar.vscode-solution-explorer
-formulahendry.auto-rename-tag
 ghaschel.vscode-angular-html
-GitHub.github-vscode-theme
 infinity1207.angular2-switcher
 johnpapa.Angular2
 johnpapa.vscode-peacock

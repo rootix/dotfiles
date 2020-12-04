@@ -14,8 +14,14 @@
   amend = commit -a --amend
   wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
   nlog = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-  lob = "!f(){ git branch --merged | grep -v 'master' | grep -v 'develop' | grep -v '*'; };f"
-  dob = "!f(){ git branch --merged | grep -v 'master' | grep -v 'develop' | grep -v '*' | xargs git branch -d; };f"
+  # List all branches which are merged into the current branch
+  lob = "!f(){ git branch --merged | grep -v -e 'master$' | grep -v -e 'develop$' | grep -v '*'; };f"
+  # Delete all branches which are merged into the current branch
+  dob = "!f(){ git branch --merged | grep -v -e 'master$' | grep -v -e 'develop$' | grep -v '*' | xargs git branch -D; };f"
+  # List all tracked branches which are deleted (squashed and deleted in my work case)
+  lsb = "!f(){ git fetch --prune && git branch -vv | grep ': gone' | awk '{print $1}'; };f"
+  # Delete all tracked branches which are deleted (squashed and deleted in my work case)
+  dsb = "!f(){ git fetch --prune && git branch -vv | grep ': gone' | awk '{print $1}' | xargs git branch -D; };f"
 [difftool "sourcetree"]
 	cmd = 'C:/Program Files/Beyond Compare 4/BComp.exe' \"$LOCAL\" \"$REMOTE\"
 [mergetool "sourcetree"]
