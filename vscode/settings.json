@@ -92,12 +92,33 @@
     "git.confirmSync": false,
     "editor.fontSize": 13,
     "workbench.colorTheme": "Ayu Mirage Bordered",
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "scm.defaultViewMode": "tree",
-    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "scottmccaughey.angular-template-formatter"
+    },
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "formatFiles.extensionsToInclude": "*.ts",
+    "formatFiles.excludePattern": "**/node_modules,**/.vscode,**/dist/**,**/.chrome,**/api.ts",
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.preferences.importModuleSpecifierEnding": "minimal",
+    "typescript.preferences.importModuleSpecifierEnding": "minimal",
+    "typescript.preferences.quoteStyle": "single",
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "editor.renameOnType": true,
+    "rewrap.wrappingColumn": 100,
+    "scm.defaultViewMode": "tree",
+    "window.closeWhenEmpty": true
 }

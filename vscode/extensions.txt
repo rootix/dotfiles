@@ -2,10 +2,10 @@ alexiv.vscode-angular2-files
 Angular.ng-template
 CoenraadS.bracket-pair-colorizer-2
 dbaeumer.vscode-eslint
-DotJoshJohnson.xml
 eamodio.gitlens
 esbenp.prettier-vscode
 fernandoescolar.vscode-solution-explorer
+formulahendry.auto-rename-tag
 ghaschel.vscode-angular-html
 infinity1207.angular2-switcher
 johnpapa.Angular2
@@ -20,9 +20,9 @@ ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 natewallace.angular2-inline
 PKief.material-icon-theme
-rbbit.typescript-hero
 rootix.dark-bliss-reloaded
 sainoba.px-to-rem
+scottmccaughey.angular-template-formatter
 Shan.code-settings-sync
 stkb.rewrap
 teabyii.ayu
