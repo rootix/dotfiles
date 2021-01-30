@@ -1,70 +1,93 @@
 {
-  "$schema": "https://aka.ms/terminal-profiles-schema",
-  "copyOnSelect": true,
-  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-  "profiles": [
-    {
-      "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-      "name": "PowerShell Core",
-      "source": "Windows.Terminal.PowershellCore",
-      "fontFace": "Cascadia Code PL",
-      "fontSize": 10,
-      "useAcrylic": true,
-      "acrylicOpacity": 0.8,
-      "startingDirectory": "C:/Development",
-      "colorScheme": "Ayu Mirage"
-    },
-    {
-      "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-      "name": "Ubuntu",
-      "source": "Windows.Terminal.Wsl",
-      "fontFace": "Cascadia Code PL",
-      "fontSize": 10,
-      "useAcrylic": true,
-      "acrylicOpacity": 0.8,
-      "startingDirectory": "C:/Development",
-      "colorScheme": "Ayu Mirage"
-    },
-    {
-      "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-      "name": "Azure Cloud Shell",
-      "source": "Windows.Terminal.Azure",
-      "fontFace": "Cascadia Code PL",
-      "fontSize": 10,
-      "useAcrylic": true,
-      "acrylicOpacity": 0.8,
-      "startingDirectory": "C:/Development",
-      "colorScheme": "Ayu Mirage"
-    },
-    {
-      "guid": "{63e31163-583f-5850-9c1e-24e227dd2da9}",
-      "hidden": false,
-      "name": "PowerShell (dotnet global)",
-      "source": "Windows.Terminal.PowershellCore"
-    }
-  ],
-  "schemes": [
-    {
-      "name": "Ayu Mirage",
-      "foreground": "#CBCCC6",
-      "background": "#1F2430",
-      "white": "#FAFAFA",
-      "black": "#3D424D",
-      "red": "#F27983",
-      "yellow": "#FFCC66",
-      "green": "#A6CC70",
-      "cyan": "#73D0FF",
-      "blue": "#709ECC",
-      "purple": "#A37ACC",
-      "brightWhite": "#FFFFFF",
-      "brightBlack": "#626A73",
-      "brightRed": "#F28779",
-      "brightYellow": "#FFD580",
-      "brightGreen": "#BAE67E",
-      "brightCyan": "#5CCFE6",
-      "brightBlue": "#77A8D9",
-      "brightPurple": "#D4BFFF"
-    }
-  ],
-  "keybindings": []
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "copyOnSelect": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "profiles": [
+        {
+            "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "name": "PowerShell Core",
+            "source": "Windows.Terminal.PowershellCore",
+            "fontFace": "Cascadia Code PL",
+            "fontSize": 10,
+            "useAcrylic": true,
+            "acrylicOpacity": 0.8,
+            "startingDirectory": "C:/Development",
+            "colorScheme": "Ayu Mirage Customized"
+        },
+        {
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "name": "Ubuntu",
+            "source": "Windows.Terminal.Wsl",
+            "fontFace": "Cascadia Code PL",
+            "fontSize": 10,
+            "useAcrylic": true,
+            "acrylicOpacity": 0.8,
+            "startingDirectory": "C:/Development",
+            "colorScheme": "Ayu Mirage Customized"
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure",
+            "fontFace": "Cascadia Code PL",
+            "fontSize": 10,
+            "useAcrylic": true,
+            "acrylicOpacity": 0.8,
+            "startingDirectory": "C:/Development",
+            "colorScheme": "Ayu Mirage Customized"
+        },
+        {
+            "guid": "{63e31163-583f-5850-9c1e-24e227dd2da9}",
+            "hidden": false,
+            "name": "PowerShell (dotnet global)",
+            "source": "Windows.Terminal.PowershellCore"
+        }
+    ],
+    "schemes": [
+        {
+            "name": "Ayu Mirage",
+            "foreground": "#CBCCC6",
+            "background": "#1F2430",
+            "white": "#FAFAFA",
+            "black": "#3D424D",
+            "red": "#F27983",
+            "yellow": "#FFCC66",
+            "green": "#A6CC70",
+            "cyan": "#73D0FF",
+            "blue": "#709ECC",
+            "purple": "#A37ACC",
+            "brightWhite": "#FFFFFF",
+            "brightBlack": "#626A73",
+            "brightRed": "#F28779",
+            "brightYellow": "#FFD580",
+            "brightGreen": "#BAE67E",
+            "brightCyan": "#5CCFE6",
+            "brightBlue": "#77A8D9",
+            "brightPurple": "#D4BFFF"
+        },
+        {
+            "name": "Ayu Mirage Customized",
+            "background": "#1f2430",
+            "foreground": "#cbccc6",
+            "cursorColor": "#ffcc66",
+            "black": "#191e2a",
+            "blue": "#6dcbfa",
+            "brightBlack": "#686868",
+            "brightBlue": "#73d0ff",
+            "brightCyan": "#95e6cb",
+            "brightGreen": "#bae67e",
+            "brightPurple": "#d4bfff",
+            "brightRed": "#f28779",
+            "brightWhite": "#ffffff",
+            "brightYellow": "#ffd580",
+            "cyan": "#90e1c6",
+            "green": "#a6cc70",
+            "purple": "#cfbafa",
+            "red": "#ed8274",
+            "white": "#c7c7c7",
+            "yellow": "#fad07b",
+            "selectionBackground": "#ffffff"
+        }
+    ],
+    "keybindings": []
 }

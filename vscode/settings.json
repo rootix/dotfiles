@@ -120,5 +120,8 @@
     "editor.renameOnType": true,
     "rewrap.wrappingColumn": 100,
     "scm.defaultViewMode": "tree",
-    "window.closeWhenEmpty": true
+    "window.closeWhenEmpty": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

@@ -1,5 +1,8 @@
+adpyke.codesnap
 alexiv.vscode-angular2-files
 Angular.ng-template
+axetroy.vscode-changelog-generator
+blake-mealey.generate-wt-scheme
 CoenraadS.bracket-pair-colorizer-2
 dbaeumer.vscode-eslint
 eamodio.gitlens
@@ -18,6 +21,7 @@ ms-vscode.powershell
 ms-vscode.vscode-typescript-tslint-plugin
 ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
+mtxr.sqltools
 natewallace.angular2-inline
 PKief.material-icon-theme
 rootix.dark-bliss-reloaded
