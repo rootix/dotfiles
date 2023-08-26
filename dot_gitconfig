@@ -1,0 +1,30 @@
+[user]
+  name = Pascal Mathys
+  email = pascal.mathys@rootix.ch
+[core]
+  autocrlf = input
+  editor = nvim
+[alias]
+  co = checkout
+  cob = checkout -b
+  cm = !git add -A && git commit -m
+  cln = !git checkout . && git clean -fd
+  s = status
+  save = !git add -A && git commit -m 'SAVEPOINT'
+  undo = reset HEAD~1 --mixed
+  ir = "!f(){ git rebase -i HEAD~$1; };f"
+  nlog = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  fixup = "!git add -A && git log -n 50 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o git commit --fixup"
+  fpush = push --force-with-lease
+  # List all branches which are merged into the current branch
+  lob = "!f(){ git branch --merged | grep -v -e 'master$' | grep -v -e 'develop$' | grep -v '*'; };f"
+  # Delete all branches which are merged into the current branch
+  dob = "!f(){ git branch --merged | grep -v -e 'master$' | grep -v -e 'develop$' | grep -v '*' | xargs git branch -D; };f"
+  # List all tracked branches which are deleted (squashed and deleted in my work case)
+  lsb = "!f(){ git fetch --prune && git branch -vv | grep ': gone' | awk '{print $1}'; };f"
+  # Delete all tracked branches which are deleted (squashed and deleted in my work case)
+  dsb = "!f(){ git fetch --prune && git branch -vv | grep ': gone' | awk '{print $1}' | xargs git branch -D; };f"
+[rebase]
+  autosquash = true
+[credential]
+  helper = /usr/local/share/gcm-core/git-credential-manager

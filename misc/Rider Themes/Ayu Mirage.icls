@@ -1,0 +1,219 @@
+<scheme name="Ayu Mirage" version="142" parent_scheme="Visual Studio Dark">
+  <metaInfo>
+    <property name="created">2022-05-15T11:10:38</property>
+    <property name="ide">Rider</property>
+    <property name="ideVersion">2022.1.1.0.0</property>
+    <property name="modified">2022-05-15T11:10:57</property>
+    <property name="originalScheme">Ayu Mirage</property>
+  </metaInfo>
+  <colors>
+    <option name="LINE_NUMBERS_COLOR" value="525252" />
+  </colors>
+  <attributes>
+    <option name="BREADCRUMBS_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="bbbbbb" />
+        <option name="BACKGROUND" value="1a1f29" />
+      </value>
+    </option>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="c7c7c7" />
+      </value>
+    </option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="73d0ff" />
+      </value>
+    </option>
+    <option name="CONSOLE_BLUE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="c7c7c7" />
+      </value>
+    </option>
+    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="95e6cb" />
+      </value>
+    </option>
+    <option name="CONSOLE_CYAN_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="90e1c6" />
+      </value>
+    </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="686868" />
+      </value>
+    </option>
+    <option name="CONSOLE_GRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="c7c7c7" />
+      </value>
+    </option>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="bae67e" />
+      </value>
+    </option>
+    <option name="CONSOLE_GREEN_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="a6cc70" />
+      </value>
+    </option>
+    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="d4bfff" />
+      </value>
+    </option>
+    <option name="CONSOLE_MAGENTA_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="cfbafa" />
+      </value>
+    </option>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="f28779" />
+      </value>
+    </option>
+    <option name="CONSOLE_RED_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ed8274" />
+      </value>
+    </option>
+    <option name="CONSOLE_WHITE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffd580" />
+      </value>
+    </option>
+    <option name="CONSOLE_YELLOW_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="fad07b" />
+      </value>
+    </option>
+    <option name="DEFAULT_BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="919191" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="73d0ff" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="73d0ff" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="919191" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG">
+      <value>
+        <option name="FOREGROUND" value="547d4a" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="c5d2d3" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOC_MARKUP">
+      <value>
+        <option name="FOREGROUND" value="54894c" />
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="cccac2" />
+      </value>
+    </option>
+    <option name="DEFAULT_INSTANCE_METHOD">
+      <value>
+        <option name="FOREGROUND" value="ffd173" />
+      </value>
+    </option>
+    <option name="DEFAULT_INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="ffdfb3" />
+      </value>
+    </option>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ffad66" />
+      </value>
+    </option>
+    <option name="DEFAULT_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="919191" />
+      </value>
+    </option>
+    <option name="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="dfbfff" />
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ffd580" />
+      </value>
+    </option>
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="5ccfe6" />
+      </value>
+    </option>
+    <option name="DEFAULT_STATIC_METHOD">
+      <value>
+        <option name="FOREGROUND" value="ffd173" />
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="d5ff80" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_DIRECTIVE_NAME">
+      <value>
+        <option name="FOREGROUND" value="73d0ff" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="73d0ff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ELEMENT">
+      <value>
+        <option name="FOREGROUND" value="73d0ff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER" baseAttributes="ReSharper.CSHARP_METHOD_IDENTIFIER" />
+    <option name="ReSharper.ENUM_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="95e6cb" />
+      </value>
+    </option>
+    <option name="ReSharper.TYPE_PARAMETER_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="dfbfff" />
+      </value>
+    </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="cccac2" />
+        <option name="BACKGROUND" value="2d2d30" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

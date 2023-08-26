@@ -1,0 +1,87 @@
+set ideajoin
+set number
+set relativenumber
+set showmode
+set showcmd
+set scrolloff=10
+set history=100
+
+let mapleader = " "
+
+set highlightedyank
+set easymotion
+
+" ReMaps
+nnoremap <SPACE> <Nop>
+vnoremap <SPACE> <Nop>
+inoremap <C-c> <esc>
+
+nmap <Leader>- :source ~/.ideavimrc<CR>
+
+" IDE
+map <C-h> <Action>(PreviousTab)
+map <C-l> <Action>(NextTab)
+map <C-x> <Action>(HideAllWindows)
+map <C-t> <Action>(ActivateTerminalToolWindow)
+map <C-s> <Action>(SaveDocument)
+map <leader>dd <action>(ToggleDistractionFreeMode)
+map <leader>dz <action>(ToggleZenMode)
+map <leader>df <action>(ToggleFullScreen)
+
+" Navigation
+nmap <Leader>u <Action>(FindUsages)
+nmap <Leader>t <Action>(SearchEverywhere)
+nmap <Leader>ff <Action>(ReformatCode)
+nmap <Leader>fi <Action>(OptimizeImports)
+nmap <Leader>gi <Action>(GotoImplementation)
+nmap <Leader>gd <Action>(GotoDeclaration)
+nmap <Leader>gs <Action>(GotoSuperMethod)
+nmap <Leader>s <Action>(FileStructurePopup)
+nmap , <Action>(ShowIntentionActions)
+map <C-f> :action Find<CR>
+nnoremap / :action Find<CR>
+nnoremap <Leader>/ /
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+map <leader>j <Plug>(easymotion-s)
+map <leader>q <action>(CloseContent)
+
+" Window splits
+map <leader>wv <Action>(SplitVertically)
+map <leader>ws <Action>(SplitHorizontally)
+map <leader>wu <Action>(Unsplit)
+map <leader>wm <Action>(MoveEditorToOppositeTabGroup)
+
+" Refactorings
+nmap <Leader>r <Action>(RenameElement)
+map <Leader>xi <Action>(ExtractInterface)
+map <Leader>xs <Action>(ExtractSuperclass)
+map <Leader>xc <Action>(ExtractClass)
+map <Leader>xm <Action>(ExtractMethod)
+map <Leader>cv <Action>(IntroduceVariable)
+map <Leader>ci <Action>(Inline)
+map <Leader>cf <Action>(IntroduceField)
+map <Leader>cp <Action>(IntroduceParameter)
+map <Leader>cc <Action>(IntroduceConstant)
+
+" Easy visual indentation
+vnoremap < <gv
+vnoremap > >gv
+
+" Errors
+map <leader>en <Action>(ReSharperGotoNextErrorInSolution)
+map <leader>ep <Action>(ReSharperGotoPrevErrorInSolution)
+
+" Comments
+nmap gcc <Action>(CommentByLineComment)
+vmap gcc <Action>(CommentByLineComment)
+nmap gcb <Action>(CommentByBlockComment)
+vmap gcb <Action>(CommentByBlockComment)
+
+" Buffer Stuff
+nnoremap x "_x
+vnoremap <leader>p "_dP
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
