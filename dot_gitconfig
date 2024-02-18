@@ -1,9 +1,3 @@
-[user]
-  name = Pascal Mathys
-  email = pascal.mathys@rootix.ch
-[core]
-  autocrlf = input
-  editor = nvim
 [alias]
   co = checkout
   cob = checkout -b
@@ -12,7 +6,7 @@
   s = status
   save = !git add -A && git commit -m 'SAVEPOINT'
   undo = reset HEAD~1 --mixed
-  ir = "!f(){ git rebase -i HEAD~$1; };f"
+  ir = "!git log -n 50 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o -I{} git rebase -i {}~1"
   nlog = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   fixup = "!git add -A && git log -n 50 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o git commit --fixup"
   fpush = push --force-with-lease
@@ -24,7 +18,29 @@
   lsb = "!f(){ git fetch --prune && git branch -vv | grep ': gone' | awk '{print $1}'; };f"
   # Delete all tracked branches which are deleted (squashed and deleted in my work case)
   dsb = "!f(){ git fetch --prune && git branch -vv | grep ': gone' | awk '{print $1}' | xargs git branch -D; };f"
-[rebase]
-  autosquash = true
+[core]
+  autocrlf = input
+  editor = nvim
 [credential]
   helper = /usr/local/share/gcm-core/git-credential-manager
+[diff]
+  algorithm = histogram
+[init]
+  defaultBranch = main
+[branch]
+  sort = -committerdate
+[fetch]
+  prune = true
+[merge]
+  conflictStyle = zdiff3
+  keepBackup = false
+[push]
+  autoSetupRemote = true
+  default = simple
+[rebase]
+  autosquash = true
+[rerere]
+  enabled = true
+[user]
+  name = Pascal Mathys
+  email = pascal.mathys@rootix.ch

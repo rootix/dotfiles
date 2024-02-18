@@ -1,21 +1,19 @@
+nnoremap <SPACE> <Nop>
+vnoremap <SPACE> <Nop>
+let mapleader = " "
+
 set ideajoin
 set number
 set relativenumber
 set showmode
 set showcmd
 set scrolloff=10
-set history=100
-
-let mapleader = " "
-
+set history=500
 set highlightedyank
 set easymotion
 
 " ReMaps
-nnoremap <SPACE> <Nop>
-vnoremap <SPACE> <Nop>
 inoremap <C-c> <esc>
-
 nmap <Leader>- :source ~/.ideavimrc<CR>
 
 " IDE
@@ -43,8 +41,8 @@ nnoremap / :action Find<CR>
 nnoremap <Leader>/ /
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
-map <leader>j <Plug>(easymotion-s)
-map <leader>q <action>(CloseContent)
+map <Leader>j <Plug>(easymotion-s)
+map <Leader>q <action>(CloseContent)
 
 " Window splits
 map <leader>wv <Action>(SplitVertically)

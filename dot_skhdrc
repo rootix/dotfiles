@@ -1,45 +1,45 @@
 # general window management
-lalt - e : yabai -m window --toggle split
-lalt - r : yabai -m space --rotate 90
-lalt - t : yabai -m window --toggle float
+alt - e : yabai -m window --toggle split
+alt - r : yabai -m space --rotate 90
+alt - t : yabai -m window --toggle float
 
-lalt - d : yabai -m window --toggle zoom-parent
-lalt - f : yabai -m window --toggle zoom-fullscreen
+alt - d : yabai -m window --toggle zoom-parent
+alt - f : yabai -m window --toggle zoom-fullscreen
 
 alt - x : yabai -m window --close
 
 # focus window
-lalt - h : yabai -m window --focus west || yabai -m window --focus stack.prev || yabai -m window --focus stack.last
-lalt - j : yabai -m window --focus south
-lalt - k : yabai -m window --focus north
-lalt - l : yabai -m window --focus east || yabai -m window --focus stack.next || yabai -m window --focus stack.first
+alt - h : yabai -m window --focus west || yabai -m window --focus stack.prev || yabai -m window --focus stack.last
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east || yabai -m window --focus stack.next || yabai -m window --focus stack.first
 
 # swap window within space
-lalt + shift - h : yabai -m window --swap west
-lalt + shift - j : yabai -m window --swap south
-lalt + shift - k : yabai -m window --swap north
-lalt + shift - l : yabai -m window --swap east
+alt + shift - h : yabai -m window --swap west
+alt + shift - j : yabai -m window --swap south
+alt + shift - k : yabai -m window --swap north
+alt + shift - l : yabai -m window --swap east
 
 # move window within space
-lalt + ctrl - h : yabai -m window --warp west
-lalt + ctrl - j : yabai -m window --warp south
-lalt + ctrl - k : yabai -m window --warp north
-lalt + ctrl - l : yabai -m window --warp east
+alt + ctrl - h : yabai -m window --warp west
+alt + ctrl - j : yabai -m window --warp south
+alt + ctrl - k : yabai -m window --warp north
+alt + ctrl - l : yabai -m window --warp east
 
 # focus on spaces
-lalt - 1 : yabai -m space --focus 1
-lalt - 2 : yabai -m space --focus 2
-lalt - 3 : yabai -m space --focus 3
-lalt - 4 : yabai -m space --focus 4
-lalt - 5 : yabai -m space --focus 5
+meh - 1 : yabai -m space --focus 1
+meh - 2 : yabai -m space --focus 2
+meh - 3 : yabai -m space --focus 3
+meh - 4 : yabai -m space --focus 4
+meh - 5 : yabai -m space --focus 5
 
 # move window to space
-lalt + shift - 1 : yabai -m window --space 1 && yabai -m space --focus 1
-lalt + shift - 2 : yabai -m window --space 2 && yabai -m space --focus 2
-lalt + shift - 3 : yabai -m window --space 3 && yabai -m space --focus 3
-lalt + shift - 4 : yabai -m window --space 4 && yabai -m space --focus 4
-lalt + shift - 5 : yabai -m window --space 5 && yabai -m space --focus 5
+meh - f1 : yabai -m window --space 1 && yabai -m space --focus 1
+meh - f2 : yabai -m window --space 2 && yabai -m space --focus 2
+meh - f3 : yabai -m window --space 3 && yabai -m space --focus 3
+meh - f4 : yabai -m window --space 4 && yabai -m space --focus 4
+meh - f5 : yabai -m window --space 5 && yabai -m space --focus 5
 
 # app shortcuts
-ralt - return : open -na /Applications/Alacritty.app
-ralt - b : open -na /Applications/Brave\ Browser.app
+meh - return : open -na /Applications/Alacritty.app
+meh - b : open -na /Applications/Brave\ Browser.app
