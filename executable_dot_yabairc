@@ -28,6 +28,3 @@ yabai -m rule --add app="Stats" manage=off
 yabai -m rule --add app="Guild Wars 2" manage=off
 yabai -m rule --add app="^Gw2-64.exe$" manage=off
 yabai -m rule --add app="choose" manage=off mouse_follows_focus=off
-#yabai -m signal --add event=window_created action='yabai -m query --windows --window $YABAI_WINDOW_ID | jq -er ".\"can-resize\" or .\"is-floating\"" || yabai -m window $YABAI_WINDOW_ID --toggle float'
-
-borders active_color=0xd943ff64 inactive_color=0xff494d64 width=5.0 2>/dev/null 1>&2 &
