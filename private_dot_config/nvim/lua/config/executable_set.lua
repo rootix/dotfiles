@@ -1,3 +1,4 @@
+vim.o.cursorline = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 
@@ -16,7 +17,5 @@ vim.opt.showmode = false
 
 vim.opt.textwidth = 100
 vim.opt.colorcolumn = "+1"
-
-vim.g.mapleader = " "
 
 vim.cmd[[au TextYankPost * silent! lua vim.highlight.on_yank()]]
