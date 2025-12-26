@@ -21,8 +21,6 @@
 [core]
   autocrlf = input
   editor = nvim
-[credential]
-  helper = /usr/local/share/gcm-core/git-credential-manager
 [diff]
   algorithm = histogram
 [init]
@@ -44,3 +42,8 @@
 [user]
   name = Pascal Mathys
   email = pascal.mathys@rootix.ch
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true

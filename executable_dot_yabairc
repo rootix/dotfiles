@@ -23,8 +23,11 @@ yabai -m config window_gap                   8
 
 # rules
 yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add title="^Picture-in-picture$" manage=off
+yabai -m rule --add app="^Java$" title="Minecraft" manage=off
 yabai -m rule --add class="^SunAwtDialog$" manage=off
 yabai -m rule --add app="Stats" manage=off
 yabai -m rule --add app="Guild Wars 2" manage=off
+yabai -m rule --add app="Shadow of the Tomb Raider" manage=off
 yabai -m rule --add app="^Gw2-64.exe$" manage=off
 yabai -m rule --add app="choose" manage=off mouse_follows_focus=off

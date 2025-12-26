@@ -41,5 +41,5 @@ shift + lalt - 4 : yabai -m window --space 4 && yabai -m space --focus 4
 shift + lalt - 5 : yabai -m window --space 5 && yabai -m space --focus 5
 
 # app shortcuts
-meh - return : open -na /Applications/Alacritty.app
+lalt - return : open -na /Applications/Ghostty.app/Contents/MacOS/ghostty
 meh - b : open -na /Applications/Brave\ Browser.app

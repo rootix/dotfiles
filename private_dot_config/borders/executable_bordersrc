@@ -4,7 +4,7 @@ options=(
 	style=round
 	width=5.0
 	hidpi=on
-	active_color=0xd943ff64
+	active_color=0xd9508850
 	inactive_color=0xff494d64
     blacklist="Gw2-64.exe"
 )
